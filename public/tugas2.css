@@ -1,0 +1,89 @@
+:root {
+  --aluih: #f09d9d;
+  --redDough: #ff6d6d;
+  --tageh: #cb4141;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.gambarMuko {
+  margin-right: 20px;
+}
+
+header {
+  padding: 50px;
+  padding-bottom: 0px;
+  background-color: var(--aluih);
+  color: white;
+  display: flex;
+}
+
+header img {
+  width: 200px;
+  height: auto;
+}
+
+.allSalute {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.salute-name {
+  display: flex;
+}
+
+.salute-name > .name {
+  color: var(--tageh);
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 5px;
+  background-color: var(--redDough);
+}
+
+.navBar > a {
+  color: rgb(236, 236, 236);
+  font-weight: bold;
+  padding: 5px;
+}
+
+.navBar > a:hover {
+  color: rgb(250, 208, 153);
+}
+
+h2 {
+  padding: 5px;
+  background-color: var(--redDough);
+  border-radius: 5px;
+  width: fit-content;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+h2::before {
+  content: "#";
+  padding-right: 5px;
+}
+
+.tentangSaya {
+  padding: 10px 15px 10px 15px;
+  align-items: center;
+}
+
+.tentangSayaDalam {
+  display: flex;
+  flex-direction: row;
+}
+
+.tentangSayaDalam > #kotakKenalan {
+}
